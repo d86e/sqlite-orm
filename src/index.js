@@ -217,4 +217,4 @@ const SqliteORM = (function () {
         return instance;
     }());
 }());
-export default SqliteORM;
+module.exports = SqliteORM;
